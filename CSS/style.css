@@ -1,0 +1,497 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+/*Navebar*/
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    background: #360836; 
+
+}
+.navbar ul
+{
+    list-style: none;
+    text-align: center;
+    line-height: 50px;
+}
+.navbar ul li
+{
+    display: inline-block;
+}
+.navbar ul li a
+{
+    color:#dd1616 ;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 20px;
+}
+
+
+.navbar ul li .active
+{
+    color: #ffffff;
+}
+/*Web Folk*/
+.web{
+    width: 100%;
+    height: 600px;
+    background: url(../Images/cover.png);
+    background-size: cover;
+    text-align: center;
+    padding-top: 10%;
+    position: relative;
+}
+.web .folk
+{
+    margin: 60px;
+}
+.web .folk h2
+{
+    font-family: 'Prata', serif;
+    font-size: 50px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.web .folk p
+{
+   letter-spacing: 10px; 
+   font-size: 30px;
+   color: #ffffff;
+   padding-top: 20px;
+}
+
+.web .dream p{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.web .work
+{
+    width: 250px;
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    background-color: #dd1616;
+    left: 40%;
+    padding: 15px;
+
+}
+.web .work::after
+{
+    content: "";
+    border-top: 20px solid #dd1616;
+    border-right: 20px solid transparent;
+    border-left: 10px solid transparent;
+    position: relative;
+    top: 55px;
+    left: -70px;
+}
+
+/*image*/
+image
+{
+    width: 100%;
+}
+.image .img
+{
+    width: 25%;
+    height: 252px;
+    float: left;
+}
+
+.image .img .over
+{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    opacity: 0;
+}
+
+.image .img:hover .over
+{
+    opacity: 1;
+}
+
+.image .i1
+{
+    background-image: url(../Images/image_1.jpg);
+}
+.image .i2
+{
+    background-image: url(../Images/image_2.jpg);
+}
+.image .i3
+{
+    background-image: url(../Images/image_3.jpg);
+}
+.image .i4
+{
+    background-image: url(../Images/image_4.jpg);
+}
+.image .i5
+{
+    background-image: url(../Images/image_5.jpg);
+}
+.image .i6
+{
+    background-image: url(../Images/image_6.jpg);
+}
+.image .i7
+{
+    background-image: url(../Images/image_7.jpg);
+}
+.image .i8
+{
+    background-image: url(../Images/image_8.jpg);
+}
+.image .i9
+{
+    background-image: url(../Images/image_9.jpg);
+}
+.image .i10
+{
+    background-image: url(../Images/image_10.jpg);
+}
+.image .i11
+{
+    background-image: url(../Images/image_11.jpg);
+}
+.image .i12
+{
+    background-image: url(../Images/image_12.jpg);
+}
+.clear
+{
+    clear: both;
+}
+/*meet Class*/
+.meet
+{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    background-color: #cac7c7ea;
+    padding-bottom: 20px;
+}
+.meet .head
+{
+    position: relative;
+    top: 0;
+    background-color: #dd1616;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+}
+.meet .head::after
+{
+    content: "";
+    border-top: 20px solid#dd1616;
+    border-right: 20px solid transparent;
+    border-left: 10px solid transparent;
+    position: relative;
+    top: 55px;
+    left: -200px;
+}
+.meet h2
+{
+    
+    padding-top:6%;
+    padding-bottom:2%;
+    color:#dd1616;
+    font-size: 30px;
+}
+.meet .meet_image{
+   display: inline-block;
+   margin-bottom: 20px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+.meet .meet_image h3
+{
+    color: #dd1616;
+    font-size: 28px;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}
+.meet .meet_image p
+{
+    margin-top: 15px;
+    padding: 0px 10px 0 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.meet button
+{
+    width: 150px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+
+/*end*/
+.end
+{
+    width: 100%;
+    height: auto;
+ 
+    background-image: url(../Images/Cover_2.jpg);
+    text-align: center;
+}
+.end .content
+{
+    width: 50%;
+    color: #ffffff;
+    float: left;
+    padding-top: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
+.end .content h2{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: #eeeeee;
+    margin-bottom: 20px;
+
+}
+.end .content p
+{
+    margin:0px 80px 0px 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: start;
+}
+.end button
+{
+
+    width: auto;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+  
+
+}
+
+.end .bol
+{
+    text-align: center;
+    padding-bottom: 10%;
+   
+}
+.end .bol span
+{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.end .bol span:hover
+{
+    background-color: #e90404;
+    
+}
+
+/* Footer */
+#footer
+{
+ 
+    width: 100%;
+    height: 100px;
+    background-color: #dddddd;
+    color: #000000;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#footer ul{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13px ;
+}
+#footer ul li a{
+    color:#0d0aec;
+    margin-right:15px ;
+}
+
+#footer ul li a:hover{
+    color:#d30337;
+}
+/***************************************************************/
+                            /*Contact Page*/
+.contact
+{
+    width: 100%;
+    height: auto;
+    background-image: url('../Images/coverPage2.PNG');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 25px;
+}
+.contact h2
+{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 10px;
+    padding-top: 15px;
+
+}
+.contact p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 15px 0px 40px 0px;
+}
+.contact .form
+{
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+   /* background-color: #fcfcfc;*/
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+.contact .form h2
+{
+    color: #da1c45;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.contact .form input[type=text]
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border: none;
+    background-color:#da1c45;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.contact .form textarea
+{
+    display: block;
+    width: 100%;
+    height:200px ;
+    margin-bottom: 10px;
+    border: none;
+    color: #ffffff;
+    background-color:#da1c45;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.contact .form input[type=button]
+{
+    float: right;
+    border: none;
+    background: #ffffff;
+    padding:10px;
+    cursor: pointer;
+
+    font-size: 20px;
+}
+.contact .form::placeholder
+{
+    color: #ffffff;
+}
+
+/*Folker*/
+.BeFolker
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 40px;
+    background-color: #eeeeee;
+}
+.BeFolker h2
+{
+    color: #da1c45;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.BeFolker p
+{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/************************ BOOK Online **********************************************************/
+.contact .cover 
+{
+    width: 60%;
+    height:400px;
+    background-color: #e73b3b;
+    margin: auto;
+    padding-top: 5%;
+
+}
+.contact .cover .left 
+{
+    width: 45%;
+    height: 250px;
+    float: left;
+    margin-left: 5%;
+}
+
+.contact .cover .left img
+{
+    width: 100%;
+    height: 250px;
+}
+.contact .cover .right
+{
+    width: 45%;
+    height: 250px;
+    float: right;
+    background-color: #eee;
+    margin-right:5%;
+    text-align: center;
+}
+.contact .cover .right button
+{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font: 18px bold;
+}
